@@ -45,7 +45,7 @@ for symbol in message:
         if num >= len(symbols):
             num = num - len(symbols)
         elif num < 0:
-            num = num - len(symbols)
+            num = num + len(symbols)
 
         translated = translated + symbols[num]
     
